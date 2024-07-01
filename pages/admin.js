@@ -25,7 +25,7 @@ export const getStaticProps =async()=>{
     const catolist = codesnapshot.docs?codesnapshot.docs.map(doc =>{ de.push(doc.data());   }):de
     const prodlist = collection(db, 'broductes');
     const prodsnapshot = await getDocs(prodlist);
-    const products =async()=>await prodsnapshot.docs?prodsnapshot.docs.map(doc =>{ pro.push({imges:doc.data().imges});   }):[]
+    const products =async()=>await prodsnapshot.docs?prodsnapshot.docs.map(doc =>{ pro.push({q1qimges:doc.data().imges});   }):[]
     const ordlist = collection(db, 'orders'); 
     const ordsnapshot = await getDocs(ordlist);
     const orderget =async()=>await ordsnapshot.docs?ordsnapshot.docs.map(doc =>or.push(doc.data()))   :[]
