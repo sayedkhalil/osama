@@ -27,7 +27,7 @@ const Partener = (props) => {
 
         </Head>
         <div className="row w-100">
-    <h4 className="col-12 col-lg-3 my-2 title ms-auto"> احجز موعد</h4>
+    {/* <h4 className="col-12 col-lg-3 my-2 title ms-auto"> احجز موعد</h4>
 
 </div>
 
@@ -51,7 +51,7 @@ crossOrigin="anonymous">
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" onChange={onmsg}value={cart.msg}></textarea>
   </div>
   <button type="submit" class="btn btn-success my-2" onSubmit={onsend}>أرسل</button>
-</form>
+</form> */}
 <iframe className="w-100" src="https://www.google.com/maps/embed/v1/place?q=GENTLE+CARE+CLINIC+..+Dr%2FAhmed+Osama+Ouf/@31.3230601,31.7613873,17z&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8
 " title="GENTLE CARE CLINIC .. Dr/Ahmed Osama Ouf
 "></iframe>

@@ -348,8 +348,8 @@ return (
         <div className="my-5 container">
         <Head>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-<title>مصنع فرسان الإنشاءات  للصناعة</title>
-   <link rel="icon" href="wew.png" type="image/x-icon" />
+<title>GENTLE CARE CLINIC</title>
+   <link rel="icon" href="" type="image/x-icon" />
         </Head>
 <div className="row w-100">
     <h4 className="col-12 col-lg-3 title ms-auto">لوحة التحكم</h4>
@@ -360,16 +360,16 @@ crossOrigin="anonymous">
 </script>
 <ul className="nav nav-tabs" id="myTab" role="tablist">
   <li className="nav-item" role="presentation">
-    <button className="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">طلبات التسعير</button>
+    <button className="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">طلبات الحجز</button>
   </li>
-  <li className="nav-item" role="presentation">
+  {/* <li className="nav-item" role="presentation">
     <button className="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">المنتجات</button>
-  </li>
-  <li className="nav-item" role="presentation">
+  </li> */}
+  {/* <li className="nav-item" role="presentation">
     <button className="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">إضافة الأقسام</button>
-  </li>
+  </li> */}
   <li className="nav-item" role="presentation">
-    <button className="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contac" type="button" role="tab" aria-controls="contact" aria-selected="false">إضافة منتج</button>
+    <button className="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contac" type="button" role="tab" aria-controls="contact" aria-selected="false">إضافة صور</button>
   </li>
   <li className="nav-item" role="presentation">
     <button className="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#conta" type="button" role="tab" aria-controls="contact" aria-selected="false">تعديل معلومات الصفحة</button>
@@ -614,16 +614,14 @@ crossOrigin="anonymous">
                </div>
                
  <div className=" mb-3 w-75 ms-auto required">
-<label htmlFor="htmlFormFileLg" className="form-label text-right text-primary">  رفع لوجو</label> 
-   <input className="form-control form-control-lg  text-light" id="htmlFormFileLg" type="file" onChange={onpartn}/>
+{/* <label htmlFor="htmlFormFileLg" className="form-label text-right text-primary">  رفع لوجو</label> 
+   <input className="form-control form-control-lg  text-light" id="htmlFormFileLg" type="file" onChange={onpartn}/> */}
    </div>
-   <div className="progress mb-3 w-75">
-  <div className="progress-bar" role="progressbar" style={{width:` ${progresspartn}%`}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{progresspartn}</div>
-</div>
+
         <div className="photo-grid  mb-3 w-75 ms-auto">
         </div>
-        <button type="button" className="btn btn-primary" onClick={addpartn}>رفع لوجو شركاء</button>
-   <div className="row my-3 justify-content-md-center gap">
+        {/* <button type="button" className="btn btn-primary" onClick={addpartn}>رفع لوجو شركاء</button> */}
+   {/* <div className="row my-3 justify-content-md-center gap">
            {
             opnions.map((op) => (
                 <div className="col-12 col-lg-3 p-2 border border-success  rounded" key={op.name}>
@@ -640,7 +638,7 @@ crossOrigin="anonymous">
                
        
             ))}     
-                  </div>
+                  </div> */}
      <form action="" onSubmit={addopnion}>            
                   <div className="input-group input-group-lg border-success mb-3 w-75 ms-auto required">
   <input type="text" className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" required onChange={opntitle} value={opnion.name}/>

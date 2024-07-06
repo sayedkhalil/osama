@@ -93,8 +93,8 @@ crossOrigin="anonymous"></script>
     <span><i id="coloric" className="fab coloric fa-2x fa-linkedin"></i></span>
   </a>:""}
   <span className="ppp">gentlecare</span>
-  <a  href="https://api.whatsapp.com/send?phone=00201018030690"><i id="coloric"  className="fab fa-whatsapp  fa-2x "></i></a>
-  <a className="ppp" href={`tel:00201018030690}`}>010 180 30690
+  <a  href="https://api.whatsapp.com/send?phone=01018030690"><i id="coloric"  className="fab fa-whatsapp  fa-2x "></i></a>
+  <a className="ppp" href={`tel:01018030690}`}>010 180 30690
   </a>
 </div>
 <Link href={`/`}>
@@ -185,17 +185,17 @@ crossOrigin="anonymous"></script>
     <span><i id="coloric" className="fab coloric fa-1x fa-linkedin"></i></span>
   </a>:""}
   <span className="ppp">alaminalearabia</span>
-  <a  href="https://api.whatsapp.com/send?phone=00201018030690"><i id="coloric"  className="fab fa-whatsapp  fa-1x "></i></a>
-  <a className="ppp" href={`tel:00201018030690}`}>010 180 30690</a>
+  <a  href="https://api.whatsapp.com/send?phone=01018030690"><i id="coloric"  className="fab fa-whatsapp  fa-1x "></i></a>
+  <a className="ppp" href={`tel:01018030690}`}>010 180 30690</a>
 </div>
 </div>
 <div className="fixed">
   <div className={`fixed-item rounded text-center fixed1 row ${activ}`}  id="fixed1">
-  <a className="bg-light text-success col-8 p-2" href="https://api.whatsapp.com/send?phone=00201018030690">010 180 30690</a>
+  <a className="bg-light text-success col-8 p-2" href="https://api.whatsapp.com/send?phone=01018030690">010 180 30690</a>
   <i onClick={fixed} className="fab fa-whatsapp col-4 bg-brand fa-2x p-1 text-light"></i>
    </div>
   <div className={`fixed-item rounded text-center fixed1 row ${activ1}`}>
-  <a className="bg-light col-8 text-success p-2" href={`tel:00201018030690}`}>010 180 30690</a>
+  <a className="bg-light col-8 text-success p-2" href={`tel:01018030690}`}>010 180 30690</a>
   <i onClick={fixed1} className="fas fa-phone col-4  bg-brand fa-2x p-1 text-light"></i>
     </div>
 </div>
@@ -231,7 +231,7 @@ crossOrigin="anonymous"></script>
     <span><i id="coloric" className="fab coloric fa-2x fa-linkedin"></i></span>
   </a>:""}
   <span className="ppp">gentlecare</span>
-  <a  href="https://api.whatsapp.com/send?phone=00201018030690"><i id="coloric"  className="fab fa-whatsapp  fa-2x "></i></a>
+  <a  href="https://api.whatsapp.com/send?phone=01018030690"><i id="coloric"  className="fab fa-whatsapp  fa-2x "></i></a>
   <span className="ppp">010 180 30690</span>
 </div>
 <div className="row justify-content-around">
@@ -251,13 +251,25 @@ crossOrigin="anonymous"></script>
           </li>
           <li className="col-12 text-lift">
           <span className="text-dark">
-           <a href="tel:00201018030690">010 180 30690</a>
+           <a href="tel:01018030690">010 180 30690</a>
+          </span>
+          <i className="fas fa-phone-square-alt p-1 fa-2x"></i>
+          </li>
+          <li className="col-12 text-lift">
+          <span className="text-dark">
+           <a href="tel:01558757112">015 587 57112 </a>
+          </span>
+          <i className="fas fa-phone-square-alt p-1 fa-2x"></i>
+          </li>
+          <li className="col-12 text-lift">
+          <span className="text-dark">
+           <a href="tel:05734809990">057 348 0999 </a>
           </span>
           <i className="fas fa-phone-square-alt p-1 fa-2x"></i>
           </li>
          <li className="col-12 text-lift">
           <span className="text-dark">
-           <a href="mailto:info@ahmedosamah.com ">info@ahmedosamah.com</a>
+           <a href="mailto:drahmedosamaouf@gmail.com ">drahmedosamaouf@gmail.com</a>
           </span>
           <i className="fas fa-at p-1 fa-2x"></i>
           </li>
